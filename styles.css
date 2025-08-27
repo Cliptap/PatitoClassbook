@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Ajustes ligeros sobre Bootstrap para el mock de Jardín Patito
+   ========================================================================== */
+
+/* Avatar circular para cada alumno (usa iniciales si no hay foto) */
+.avatar{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bs-secondary-bg) center/cover no-repeat;
+  color: var(--bs-secondary-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mantener buenos saltos de línea en textos multi-línea */
+.white-space-prewrap { white-space: pre-wrap; }
+
+/* Barra inferior pegada al fondo (similar a sticky-top, pero abajo) */
+.sticky-bottom-bar{
+  position: sticky;
+  bottom: 0;
+  z-index: 1020; /* por encima del contenido, debajo del offcanvas/modal de BS */
+}
+
+/* Cuando una card colapsable se abre, dar un poquito de separación */
+.obs-wrap.collapse.show { margin-top: .5rem; }

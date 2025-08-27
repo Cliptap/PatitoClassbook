@@ -1,0 +1,18 @@
+{
+  "salas": ["Medio Mayor", "Pre-Kínder A"],
+  "alumnos": [
+    { "id": "a01", "sala": "Medio Mayor",  "nombre": "Ana Soto",         "foto": null },
+    { "id": "a02", "sala": "Medio Mayor",  "nombre": "Benjamín Reyes",   "foto": null },
+    { "id": "a03", "sala": "Medio Mayor",  "nombre": "Camila Fuentes",   "foto": null },
+    { "id": "a04", "sala": "Medio Mayor",  "nombre": "Diego Álvarez",    "foto": null },
+    { "id": "a05", "sala": "Medio Mayor",  "nombre": "Emilia Rojas",     "foto": null },
+    { "id": "a06", "sala": "Medio Mayor",  "nombre": "Francisco Pérez",  "foto": null },
+    { "id": "a07", "sala": "Medio Mayor",  "nombre": "Gabriela Núñez",   "foto": null },
+    { "id": "a08", "sala": "Medio Mayor",  "nombre": "Hernán Castillo",  "foto": null },
+
+    { "id": "b01", "sala": "Pre-Kínder A", "nombre": "Isidora Campos",   "foto": null },
+    { "id": "b02", "sala": "Pre-Kínder A", "nombre": "Julián Pardo",     "foto": null },
+    { "id": "b03", "sala": "Pre-Kínder A", "nombre": "Kiara Morales",    "foto": null },
+    { "id": "b04", "sala": "Pre-Kínder A", "nombre": "Lucas Rivera",     "foto": null }
+  ]
+}
